@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطور لغة تنسيق صفحات الويب CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f5f9;
+            color: #333;
+            margin: 0;
+            padding: 25px;
+            line-height: 1.9;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            color: #174b78;
+            text-align: center;
+        }
+
+        h2 {
+            color: #1769aa;
+            border-bottom: 2px solid #dce8f2;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #285b80;
+        }
+
+        .student {
+            text-align: center;
+            background-color: #eaf3fa;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        img {
+            display: block;
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #b9cbd9;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #1769aa;
+            color: white;
+        }
+
+        a {
+            color: #1769aa;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .example {
+            background-color: #eef2f6;
+            padding: 15px;
+            direction: ltr;
+            text-align: left;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>تطور لغة تنسيق صفحات الويب (CSS)</h1>
+
+        <div class="student">
+            <p><strong>اسم الطالبة:</strong> شروق سامي الهادي نصر موسي فضه</p>
+            <p><strong>الرقم الجامعي:</strong> 2502076</p>
+            <p><strong>المقرر:</strong> تطبيقات الإنترنت والمنصات الإلكترونية</p>
+        </div>
+
+        <h2>1. المقدمة</h2>
+
+        <p>
+            تعتبر شبكة الإنترنت جزءاً لا يتجزأ من حياتنا اليومية،
+            وتقف خلف كل موقع إلكتروني نزوره هيكلية برمجية دقيقة.
+            إذا كانت لغة HTML هي الهيكل الأساسي لأي صفحة ويب،
+            فإن لغة CSS (Cascading Style Sheets) أو أوراق الأنماط
+            المتتالية هي التي تمنح هذا الهيكل مظهراً أنيقاً وجذاباً.
+        </p>
+
+        <p>
+            ظهرت لغة CSS لتفصل بين محتوى الصفحة الهيكلي وتنسيقها
+            البصري، مما سهّل على المطورين تصميم صفحات ويب متجاوبة
+            مع جميع الأجهزة مثل الهواتف الذكية والحواسيب.
+        </p>
+
+        <img src="css-image.jpg"
+             alt="صورة توضيحية عن لغة CSS وتصميم صفحات الويب">
+
+        <h2>2. شرح الموضوع وأهم الأفكار</h2>
+
+        <h3>أ. ما هي لغة CSS وكيف تعمل؟</h3>
+
+        <p>
+            هي لغة تنسيق تُستخدم لتحديد شكل وتنسيق العناصر المكتوبة
+            بلغة HTML. وتتكون قاعدة CSS من عنصرين أساسيين:
+        </p>
+
+        <p>
+            <strong>المحدد (Selector):</strong>
+            وهو العنصر المراد تنسيقه، مثل h1 أو p أو فئة معينة.
+        </p>
+
+        <p>
+            <strong>الخصائص والقيم (Declarations):</strong>
+            مثل تحديد اللون (color)، وحجم الخط (font-size)،
+            ولون الخلفية (background-color).
+        </p>
+
+        <h3>ب. الأهمية والمميزات الرئيسية</h3>
+
+        <p>
+            <strong>1. فصل المحتوى عن التصميم:</strong>
+            تتيح إمكانية تعديل تصميم موقع كامل من ملف واحد دون
+            الحاجة إلى تعديل كل صفحة HTML على حدة.
+        </p>
+
+        <p>
+            <strong>2. التوافقية والسرعة:</strong>
+            تساعد ملفات CSS على تنظيم التصميم وإمكانية تخزين
+            ملفات التنسيق مؤقتاً في المتصفح.
+        </p>
+
+        <p>
+            <strong>3. التصميم المتجاوب (Responsive Design):</strong>
+            بفضل تقنيات مثل Flexbox و Grid و Media Queries،
+            أصبح تصميم المواقع التي تتكيف مع أحجام الشاشات المختلفة
+            أكثر سهولة ومرونة.
+        </p>
+
+        <h3>ج. أمثلة عملية على CSS</h3>
+
+        <p>
+            يوضح المثال التالي كيفية استخدام CSS لتغيير تنسيق
+            فقرة نصية وزر تفاعلي:
+        </p>
+
+        <div class="example">
+<pre>
+/* تنسيق الفقرة النصية */
+p {
+    color: #333333;
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* تنسيق زر تفاعلي */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+</pre>
+        </div>
+
+        <h3>د. مقارنة بين HTML و CSS</h3>
+
+        <table>
+            <tr>
+                <th>وجه المقارنة</th>
+                <th>HTML</th>
+                <th>CSS</th>
+            </tr>
+
+            <tr>
+                <td>الوظيفة</td>
+                <td>بناء هيكل الصفحة</td>
+                <td>تنسيق وتصميم الصفحة</td>
+            </tr>
+
+            <tr>
+                <td>الاستخدام</td>
+                <td>إضافة النصوص والصور والعناوين</td>
+                <td>تحديد الألوان والخطوط والخلفيات</td>
+            </tr>
+
+            <tr>
+                <td>النتيجة</td>
+                <td>محتوى منظم</td>
+                <td>مظهر جذاب ومنسق</td>
+            </tr>
+        </table>
+
+        <h2>3. المراجع والمصادر</h2>
+
+        <ul>
+            <li>
+                Mozilla Developer Network (MDN Web Docs):
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                   target="_blank">
+                    مرجع لغة CSS
+                </a>
+            </li>
+
+            <li>
+                W3Schools CSS Tutorial:
+                <a href="https://www.w3schools.com/css/"
+                   target="_blank">
+                    شرح أساسيات CSS
+                </a>
+            </li>
+
+            <li>
+                كتب ومقالات تطوير الويب المتخصصة:
+                مصادر أكاديمية وتقنية تتناول تطور معايير الويب الحديثة.
+            </li>
+        </ul>
+
+        <footer>
+            <p>إعداد الطالبة: شروق سامي الهادي نصر موسي فضه</p>
+            <p>الرقم الجامعي: 2502076</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
